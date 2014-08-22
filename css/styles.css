@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ubabroker";
+  src:url("../fonts/ubabroker.eot");
+  src:url("../fonts/ubabroker.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ubabroker.woff") format("woff"),
+    url("../fonts/ubabroker.ttf") format("truetype"),
+    url("../fonts/ubabroker.svg#ubabroker") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ubabroker" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ubabroker" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-account:before {
+  content: "a";
+}
+.icon-arrow-down:before {
+  content: "b";
+}
+.icon-arrow-up:before {
+  content: "c";
+}
+.icon-dashboard:before {
+  content: "d";
+}
+.icon-history:before {
+  content: "e";
+}
+.icon-settings:before {
+  content: "f";
+}
+.icon-settings2:before {
+  content: "g";
+}
+.icon-sing-out:before {
+  content: "h";
+}
+.icon-user:before {
+  content: "i";
+}
+.icon-wallet-add:before {
+  content: "j";
+}
+.icon-wallet-bitcoin:before {
+  content: "k";
+}
+.icon-wallet-dollars:before {
+  content: "l";
+}
+.icon-wallet-pounds:before {
+  content: "m";
+}
+.icon-wallet-euro:before {
+  content: "n";
+}
+.icon-graphic:before {
+  content: "o";
+}
+.icon-contacts:before {
+  content: "p";
+}
+.icon-wallet-open:before {
+  content: "q";
+}
+.icon-dollar:before {
+  content: "r";
+}
+.icon-pound:before {
+  content: "s";
+}
+.icon-euro:before {
+  content: "t";
+}
+.icon-bitcoin:before {
+  content: "u";
+}
+.icon-wallet-1:before {
+  content: "v";
+}
+.icon-uba:before {
+  content: "w";
+}
+.icon-trading:before {
+  content: "x";
+}
